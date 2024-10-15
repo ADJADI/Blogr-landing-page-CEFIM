@@ -26,8 +26,8 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
-      <nav role="header-nav">
+    <header role="banner">
+      <nav role="navigation">
         <div class="parent-nav">
           <div class="">
             <img src="./images/logo.svg" alt="" class="logo" />
@@ -86,8 +86,12 @@
           </div>
         </div>
         <div class="right-nav">
-          <button class="log-btn">Login</button>
-          <button class="sign-btn">Sign Up</button>
+          <button class="log-btn" aria-label="Login to your account">
+            Login
+          </button>
+          <button class="sign-btn" aria-label="Create a new account">
+            Sign Up
+          </button>
         </div>
       </nav>
       <div class="header-container">
@@ -198,7 +202,7 @@
       <div class="">
         <img src="./images/logo.svg" alt="" />
       </div>
-      <nav role="footer-nav">
+      <nav role="contentinfo">
         <div class="link-container">
           <h3>Product</h3>
           <ul>
