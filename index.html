@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Blogr]</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav role="header-nav">
+        <div class="parent-nav">
+          <div class="">
+            <img src="./images/logo.svg" alt="" class="logo" />
+          </div>
+          <div id="menu" class="menu">
+            <div class="menu-open">
+              <div class="dropdown">
+                <button class="dropdown-button">
+                  <span>Product</span>
+                  <span
+                    ><img src="./images/icon-arrow-light.svg" alt=""
+                  /></span>
+                </button>
+                <ul class="dropdown-content">
+                  <li><a href="">lorem</a></li>
+                  <li><a href="">lorem</a></li>
+                  <li><a href="">lorem</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="dropdown-button">
+                  <span>Company</span>
+                  <span
+                    ><img src="./images/icon-arrow-light.svg" alt=""
+                  /></span>
+                </button>
+                <ul class="dropdown-content">
+                  <li><a href="">lorem</a></li>
+                  <li><a href="">lorem</a></li>
+                  <li><a href="">lorem</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown">
+                <button class="dropdown-button">
+                  <span>Contact</span>
+                  <span
+                    ><img src="./images/icon-arrow-light.svg" alt=""
+                  /></span>
+                </button>
+                <ul class="dropdown-content">
+                  <li><a href="">Contact</a></li>
+                  <li><a href="">Newsletter</a></li>
+                  <li><a href="">Linkedin</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button-hidden">
+          <div id="hamburger-btn">
+            <img src="./images/icon-hamburger.svg" alt="" />
+          </div>
+          <div class="close-btn">
+            <img src="./images/icon-close.svg" alt="" />
+          </div>
+        </div>
+        <div class="right-nav">
+          <button class="log-btn">Login</button>
+          <button class="sign-btn">Sign Up</button>
+        </div>
+      </nav>
+      <div class="header-container">
+        <div class="top-header-container">
+          <h1>A modern publishing platform</h1>
+          <h3>Grow your audience and build your online branch</h3>
+        </div>
+        <div class="button-container">
+          <button class="start-btn">Start for Free</button>
+          <button class="learn-btn">Learn more</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h2>Designed for the future</h2>
+      <div class="upper-main-container">
+        <picture class="card-image-container">
+          <source
+            media="(min-width: 48rem)"
+            srcset="./images/illustration-editor-desktop.svg"
+          />
+          <img
+            src="./images/illustration-editor-mobile.svg"
+            alt=""
+            class="image"
+          />
+        </picture>
+        <div class="article-parent-container">
+          <div class="article-container">
+            <h2>Introducing an extensible editor</h2>
+            <article>
+              Blogr features an exceedingly intuitive interface which lets you
+              focus on one thing: creating content. The editor supports
+              management of multiple blogs and allows easy manipulation of
+              embeds such as images, videos, and Markdown. Extensibility with
+              plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </article>
+          </div>
+          <div class="article-container">
+            <h2>Robust content management</h2>
+            <article>
+              Flexible content management enables users to easily move through
+              posts. Increase the usability of your blog by adding customized
+              categories, sections, format, or flow. With this functionality,
+              you’re in full control.
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="tab-parent-container">
+        <div class="tab-doublon">
+          <div class="bg-circle">
+            <img src="./images/bg-circle.png" alt="" />
+          </div>
+        </div>
+        <div class="phone-container">
+          <img src="./images/illustration-phones.svg" alt="" class="image" />
+        </div>
+        <div class="tab-text-container">
+          <h2>State of the Art Infrastructure</h2>
+          <p>
+            With reliability and speed in mind, worldwide data centers provide
+            the backbone for ultra-fast connectivity. This ensures your site
+            will load instantly, no matter where your readers are, keeping your
+            site competitive.
+          </p>
+        </div>
+      </div>
+      <div class="laptop-parent-container">
+        <div class="image-parent-container">
+          <picture class="laptop-image-container">
+            <source
+              media="(min-width: 48rem)"
+              srcset="./images/illustration-laptop-desktop.svg"
+            />
+            <img
+              src="./images/illustration-laptop-mobile.svg"
+              alt=""
+              class="image"
+            />
+          </picture>
+        </div>
+        <div class="article-parent-container">
+          <div class="article-container">
+            <h2>Free, open, simple</h2>
+            <article>
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as code
+              syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </article>
+          </div>
+          <div class="article-container">
+            <h2>Powerful tooling</h2>
+            <article>
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="">
+        <img src="./images/logo.svg" alt="" />
+      </div>
+      <nav role="footer-nav">
+        <div class="link-container">
+          <h3>Product</h3>
+          <ul>
+            <li><a href="">Overview</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Marketplace</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Integration</a></li>
+          </ul>
+        </div>
+        <div class="link-container">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Careers</a></li>
+          </ul>
+        </div>
+        <div class="link-container">
+          <h3>Connect</h3>
+          <ul>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Newsletter</a></li>
+            <li><a href="">Linkedin</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
